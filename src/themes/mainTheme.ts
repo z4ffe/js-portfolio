@@ -8,6 +8,8 @@ const mainTheme = extendTheme({
 				backgroundColor: 'white',
 				maxWidth: '1920px',
 				margin: '0 auto',
+				overflow: 'hidden',
+				scroll: 'no',
 			},
 			'#root': {},
 			a: {
