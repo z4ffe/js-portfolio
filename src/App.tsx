@@ -1,16 +1,17 @@
 import {ChakraProvider} from '@chakra-ui/react'
-import {Footer} from './components/Footer.tsx'
+import {BrowserRouter} from 'react-router-dom'
 import {MainLayout} from './layouts/mainLayout.tsx'
-import {Home} from './pages/Home/Home.tsx'
+import {Router} from './routes/Router.tsx'
 import mainTheme from './themes/mainTheme.ts'
 
 export const App = () => {
 	return (
-		<ChakraProvider theme={mainTheme}>
-			<MainLayout>
-				<Home />
-				<Footer />
-			</MainLayout>
-		</ChakraProvider>
+		<BrowserRouter>
+			<ChakraProvider theme={mainTheme}>
+				<MainLayout>
+					<Router />
+				</MainLayout>
+			</ChakraProvider>
+		</BrowserRouter>
 	)
 }

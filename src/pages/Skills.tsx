@@ -1,8 +1,9 @@
 import {Flex} from '@chakra-ui/react'
+import {pagesAnimation} from '../utils/pagesAnimation.ts'
 
 export const Skills = () => {
 	return (
-		<Flex id='skills' height='100vh'>
+		<Flex height='100vh' {...pagesAnimation}>
 			<h1>Skills</h1>
 		</Flex>
 	)

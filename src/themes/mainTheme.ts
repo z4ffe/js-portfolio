@@ -3,15 +3,26 @@ import {ChakraTheme, extendTheme} from '@chakra-ui/react'
 const mainTheme = extendTheme({
 	styles: {
 		global: {
-			'html, body': {
+			'*': {
+				boxSizing: 'border-box',
+				margin: 0,
+				padding: 0,
+			},
+			'html': {
 				scrollBehavior: 'smooth',
-				backgroundColor: 'white',
-				maxWidth: '1920px',
-				margin: '0 auto',
-				overflow: 'hidden',
+				overflow: 'scroll',
 				scroll: 'no',
 			},
-			'#root': {},
+			'body': {
+				display: 'flex',
+				justifyContent: 'center',
+				backgroundColor: 'transparent',
+			},
+			'#root': {
+				maxWidth: '1440px',
+				width: '100%',
+				boxShadow: '2px 2px 40px lightgrey',
+			},
 			a: {
 				textDecoration: 'none',
 			},
