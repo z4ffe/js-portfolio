@@ -17,9 +17,7 @@ export const Home = () => {
 			<Flex margin='32px 0 0 150px'>
 				<SocialPanel />
 			</Flex>
-			<Flex margin='auto 0 100px 150px'>
-				<ScrollButton color='purple' linkTo='/about' />
-			</Flex>
+			<ScrollButton color='purple' linkTo='/about' />
 		</Flex>
 	)
 }

@@ -5,7 +5,7 @@ export const CONSTANTS = {
 	TWITTER_LINK: 'https://twitter.com/',
 	GITHUB_LINK: 'https://github.com/',
 	LINKEDIN_LINK: 'https://linkedin.com/',
-	ABOUT_ME_DESC: 'An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion.',
+	ABOUT_ME_DESC: 'An accomplished System Administrator and DevOps enthusiast, I\'m dedicated to optimizing IT landscapes and delivering outstanding system performance. With a strong foundation in IT operations and development, I excel in collaborating with cross-functional teams, ensuring seamless communication, and delivering innovative solutions. Let\'s transform technology together.',
 	SKILLS_DESC: 'I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.',
 	SCROLL_BTN: 'Scroll',
 }
